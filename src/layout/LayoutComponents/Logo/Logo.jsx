@@ -9,7 +9,7 @@ export default function Logo({brandName,LogoUrl}) {
           src={`${LogoUrl}`}
           alt={`${brandName}`}
         />
-        <span className="pl-1 font-extrabold text-2xl ">{`${brandName}`}</span>
+        <span className="pl-1 font-extrabold text-lg  lg:text-2xl ">{`${brandName}`}</span>
       </div>
     </div>
   );s
